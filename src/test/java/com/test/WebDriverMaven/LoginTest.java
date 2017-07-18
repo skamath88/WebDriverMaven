@@ -34,6 +34,7 @@ public class LoginTest {
 	
 	@AfterMethod
 	public void testDown() {
+		System.out.println("this is sample test");
 		browser.quit();
 	}
 
